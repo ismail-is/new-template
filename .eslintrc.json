@@ -1,0 +1,17 @@
+{
+    "rules": {
+      "no-unused-vars": "warn"
+    },
+    "overrides": [
+      {
+        "files": ["*.js"],
+        "rules": {
+          "no-unused-vars": "error"
+        },
+        "env": {
+          "CI": "true"
+        }
+      }
+    ]
+  }
+  
